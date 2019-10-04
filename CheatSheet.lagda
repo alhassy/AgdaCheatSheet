@@ -39,7 +39,27 @@
 #
 # LATEX_HEADER: \newunicodechar{⇨}{\ensuremath{\rotatebox[origin=c]{180}{$\Lsh$}}}
 
-* Contents :TOC:QUOTE:ignore:
+* Contents :TOC:QUOTE:
+#+BEGIN_QUOTE
+- [[#administrivia][Administrivia]]
+- [[#dependent-functions][Dependent Functions]]
+- [[#reads][Reads]]
+- [[#dependent-datatypes][Dependent Datatypes]]
+- [[#the-curry-howard-correspondence----propositions-as-types][The Curry-Howard Correspondence ---“Propositions as Types”]]
+  - [[#adding-to-the-table][Adding to the table]]
+- [[#equality][Equality]]
+- [[#break][break]]
+- [[#modules----namespace-management][Modules ---Namespace Management]]
+  - [[#anonymous-modules-and-variables][Anonymous Modules and Variables]]
+  - [[#break][break]]
+  - [[#module-keywords][Module Keywords]]
+- [[#records][Records]]
+- [[#interacting-with-the-real-world----compilation-haskell-and-io][Interacting with the real world ---Compilation, Haskell, and IO]]
+- [[#absurd-patterns][Absurd Patterns]]
+  - [[#preconditions-as-proof-object-arguments][Preconditions as proof-object arguments]]
+- [[#mechanically-moving-from-bool-to-set----avoiding-boolean-blindness][Mechanically Moving from ~Bool~ to ~Set~ ---Avoiding “Boolean Blindness”]]
+#+END_QUOTE
+
 * COMMENT ~LaTeX~ commands ↦ ~#+latex: \LaTeX~
 
   Execute the following block, with ~C-c C-c~ anywhere inside it,
