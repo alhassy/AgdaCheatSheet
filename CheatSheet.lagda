@@ -11,6 +11,23 @@
 #+PROPERTY: header-args :results none
 #+TODO: Todo | spacing LaTeX
 
+
+
+* COMMENT a correspondence
+
+#+LaTeX: \begin{tcolorbox}[title=\hfill Muliple Forms of the Template-Instantiation Duality]
+#+BEGIN_CENTER
+| *Template*            | $\qquad\text{has a}\qquad$ | *Instance*           |
+| ≈ class             |                            | ≈ object           |
+| ≈ type              |                            | ≈ value            |
+| ≈ theorem statement |                            | ≈ witnessing proof |
+| ≈ specification     |                            | ≈ implementation   |
+| ≈ interface         |                            | ≈ implementation   |
+| ≈ signature         |                            | ≈ algebra          |
+| ≈ logic             |                            | ≈ theory           |
+#+END_CENTER
+#+LaTeX: \end{tcolorbox}
+
 * LaTeX Extra, Local, Setup  :ignore:
 
 # Empty by default.
